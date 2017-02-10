@@ -2,3 +2,6 @@ services:
   plugin.manager.consync.messages:
     class: Drupal\consync\MessageManager
     parent: default_plugin_manager
+  plugin.manager.consync.processor:
+    class: Drupal\consync\ProcessorManager
+    parent: default_plugin_manager
