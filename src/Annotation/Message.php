@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: johncook
- * Date: 09/02/2017
- * Time: 08:47
- */
 
 namespace Drupal\consync\Annotation;
 
