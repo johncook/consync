@@ -6,7 +6,7 @@ use Drupal\Core\Plugin\PluginBase;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**
- * A base impementation of ProcessorInterface.
+ * A base implementation of ProcessorInterface.
  *
  * All other implementations should extend this class.
  */
