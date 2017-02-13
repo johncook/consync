@@ -7,7 +7,7 @@ use Drupal\consync\EndpointPluginBase;
 /**
  * Provides a basic endpoint.
  *
- * @Message(
+ * @Endpoint(
  *   id = "basic_endpoint",
  *   name = @Translation("Basic Endpoint")
  * )

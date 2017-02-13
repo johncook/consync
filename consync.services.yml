@@ -1,5 +1,5 @@
 services:
-  public.manager.consync.endpoint:
+  plugin.manager.consync.endpoint:
     class: Drupal\consync\EndpointManager
     parent: default_plugin_manager
   plugin.manager.consync.messages:

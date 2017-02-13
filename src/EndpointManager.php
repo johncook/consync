@@ -24,7 +24,7 @@ class EndpointManager extends DefaultPluginManager {
    */
   public function __construct(\Traversable $namespaces, CacheBackendInterface $cache_backend, ModuleHandlerInterface $module_handler) {
     parent::__construct('Plugin/ConSync/Endpoint', $namespaces, $module_handler, 'Drupal\consync\EndpointInterface', 'Drupal\consync\Annotation\Endpoint');
-    $this->setCacheBackend($cache_backend, 'consync_processor');
+    $this->setCacheBackend($cache_backend, 'consync_endpoint');
   }
 
 }
