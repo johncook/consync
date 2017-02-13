@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\consync\Plugin\Consync;
+namespace Drupal\consync\Plugin\Consync\Message;
 
 use Drupal\consync\MessagePluginBase;
 

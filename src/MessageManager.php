@@ -23,7 +23,7 @@ class MessageManager extends DefaultPluginManager {
    *   The module handler.
    */
   public function __construct(\Traversable $namespaces, CacheBackendInterface $cache_backend, ModuleHandlerInterface $module_handler) {
-    parent::__construct('Plugin/ConSync', $namespaces, $module_handler, 'Drupal\consync\MessageInterface', 'Drupal\consync\Annotation\Message');
+    parent::__construct('Plugin/ConSync/Message', $namespaces, $module_handler, 'Drupal\consync\MessageInterface', 'Drupal\consync\Annotation\Message');
     $this->setCacheBackend($cache_backend, 'consynd_message');
   }
 
