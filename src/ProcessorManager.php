@@ -24,7 +24,7 @@ class ProcessorManager extends DefaultPluginManager {
    */
   public function __construct(\Traversable $namespaces, CacheBackendInterface $cache_backend, ModuleHandlerInterface $module_handler) {
     parent::__construct('Plugin/ConSync/Processor', $namespaces, $module_handler, 'Drupal\consync\ProcessorInterface', 'Drupal\consync\Annotation\Processor');
-    $this->setCacheBackend($cache_backend, 'consynd_processor');
+    $this->setCacheBackend($cache_backend, 'consync_processor');
   }
 
 }
